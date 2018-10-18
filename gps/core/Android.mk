@@ -35,7 +35,8 @@ LOCAL_SRC_FILES += \
 
 LOCAL_CFLAGS += \
      -fno-short-enums \
-     -D_ANDROID_
+     -D_ANDROID_ \
+     -Wno-reinterpret-base-class
 
 LOCAL_C_INCLUDES:= \
     $(LOCAL_PATH)/data-items \

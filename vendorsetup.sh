@@ -1,0 +1,2 @@
+add_lunch_combo gzosp_whyred-user
+add_lunch_combo gzosp_whyred-userdebug
