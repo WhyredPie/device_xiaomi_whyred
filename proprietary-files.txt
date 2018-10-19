@@ -1621,6 +1621,14 @@ vendor/bin/time_daemon
 -vendor/lib/libtime_genoff.so
 -vendor/lib64/libtime_genoff.so
 
+# TUI	
+vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti	
+vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc	
+lib/vendor.qti.hardware.tui_comm@1.0.so	
+lib64/vendor.qti.hardware.tui_comm@1.0.so	
+vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so	
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so
+
 # WideWine
 vendor/lib/libwvhidl.so
 vendor/lib/mediadrm/libwvdrmengine.so|56f4f50b82787d4709b82cbffe3e41a1e0e9569a
