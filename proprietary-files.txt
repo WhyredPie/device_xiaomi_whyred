@@ -816,8 +816,8 @@ vendor/lib/libmmcamera_whyred_s5k5e8_ofilm_i_eeprom.so
 vendor/lib/libmmcamera_whyred_s5k5e8_qtech_ii.so
 vendor/lib/libmmcamera_whyred_s5k5e8_qtech_ii_eeprom.so
 
-# Charger
-vendor/bin/hvdcp_opti
+# Charger - from Nokia 7 Plus Onyx_00WW-user 9 PPR1.180610.011 00WW_3_22C release-keys
+vendor/bin/hvdcp_opti|19e14f6fc658cfe8552759d4d0a1bf4a4db8fb49
 
 # CNE - from Nokia 7 Plus Onyx_00WW-user 9 PPR1.180610.011 00WW_3_22C release-keys
 etc/permissions/cneapiclient.xml|15831adf0e80243042b90c734eea0a68eb8ae9c9
@@ -925,10 +925,10 @@ lib64/vendor.display.color@1.0.so
 lib64/vendor.display.postproc@1.0.so
 lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 -vendor/app/colorservice/colorservice.apk
-vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti
-vendor/etc/init/vendor.display.color@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc
+vendor/lib/vendor.qti.hardware.qdutils_disp@1.0_vendor.so
+vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so
 vendor/etc/qdcm_calib_data_shenchao_td4310_fhd_video_mode_dsi_panel.xml
 vendor/etc/qdcm_calib_data_tianma_nt36672_fhd_video_mode_dsi_panel.xml
 vendor/etc/qdcm_calib_data_tianma_td4310_fhd_video_mode_dsi_panel.xml
@@ -1243,130 +1243,105 @@ vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib/hw/keystore.sdm660.so
 vendor/lib64/hw/keystore.sdm660.so
 
-# Listen
-vendor/lib/hw/sound_trigger.primary.sdm660.so
-vendor/lib/libadpcmdec.so
-vendor/lib/libsmwrapper.so
-vendor/lib/libgcs-calwrapper.so
-vendor/lib/libgcs-ipc.so
-vendor/lib/libgcs-osal.so
-vendor/lib/libgcs.so
-vendor/lib/vendor.qti.voiceprint@1.0.so
-vendor/lib64/hw/sound_trigger.primary.sdm660.so
-vendor/lib64/libgcs-calwrapper.so
-vendor/lib64/libgcs-ipc.so
-vendor/lib64/libgcs-osal.so
-vendor/lib64/libgcs.so
-vendor/lib64/vendor.qti.voiceprint@1.0.so
+# Listen - from Nokia 7 Plus Onyx_00WW-user 9 PPR1.180610.011 00WW_3_22C release-keys
+vendor/lib/hw/sound_trigger.primary.sdm660.so|af935e760c7e11c5e0673e188a91a28c0cd41514
+vendor/lib/libadpcmdec.so|7c12a153200fd2e9f1f6139fcf40beee1a96f48d
+vendor/lib/libgcs-calwrapper.so|a32537f4eeb97814ccb13bede646a00c8edeedd6
+vendor/lib/libgcs-ipc.so|8a3c147f796e5565563baf1c9e77f3e62dbd45cc
+vendor/lib/libgcs-osal.so|29cf5f619296d18e3ce3c83f6797d45d190508ce
+vendor/lib/libgcs.so|63eba046fdf9359c4e4166d7772db404cf66db15
+vendor/lib/libsmwrapper.so|45be75b414f7a8bc3f4807dfab37a9ef9ce91426
+vendor/lib64/hw/sound_trigger.primary.sdm660.so|eccf860f30cf7e06e0eb39231765055a21451c42
+vendor/lib64/libgcs-calwrapper.so|c5e8358b41eefc6ae6617e528904d0843b0af6cb
+vendor/lib64/libgcs-ipc.so|d36d3ac4ecfa93903bca79c7510b403f155500b4
+vendor/lib64/libgcs-osal.so|b69700a82a0a4e56d43dcab2a9f2b65eeda79fa4
+vendor/lib64/libgcs.so|53b042cade4a2db8f2dbb22e52870c45a6799233
 
-# Media
-lib/libmmosal.so
-lib/vendor.qti.hardware.vpp@1.1.so
-lib64/libmmosal.so
-lib64/vendor.qti.hardware.vpp@1.1.so
-vendor/lib/libAlacSwDec.so
-vendor/lib/libApeSwDec.so
-vendor/lib/libdsd2pcm.so
-vendor/lib/libFlacSwDec.so
--vendor/lib/libgpustats.so
-vendor/lib/libvpplibrary.so
-vendor/lib/libI420colorconvert.so
-vendor/lib/libmm-color-convertor.so
-vendor/lib/libmmsw_detail_enhancement.so
-vendor/lib/libmmsw_math.so
-vendor/lib/libmmsw_opencl.so
-vendor/lib/libmmsw_platform.so
-vendor/lib/libOmxAacDec.so
-vendor/lib/libOmxEvrcDec.so
-vendor/lib/libOmxQcelp13Dec.so
-vendor/lib/libOmxVpp.so
-vendor/lib/libOmxAlacDec.so
-vendor/lib/libOmxAlacDecSw.so
-vendor/lib/libOmxAmrDec.so
-vendor/lib/libOmxAmrwbplusDec.so
-vendor/lib/libOmxApeDec.so
-vendor/lib/libOmxApeDecSw.so
-vendor/lib/libOmxDsdDec.so
-vendor/lib/libOmxG711Dec.so
-vendor/lib/libOmxVideoDSMode.so
-vendor/lib/libOmxWmaDec.so
-vendor/lib/libvpphvx.so
-vendor/lib/libvqzip.so
-vendor/lib/libvpptestutils.so
-vendor/lib/vendor.qti.hardware.vpp@1.1_vendor.so
-vendor/lib64/libAlacSwDec.so
-vendor/lib64/libApeSwDec.so
-vendor/lib64/libFlacSwDec.so
--vendor/lib64/libgpustats.so
-vendor/lib64/libI420colorconvert.so
-vendor/lib64/libmm-color-convertor.so
-vendor/lib64/libmmsw_detail_enhancement.so
-vendor/lib64/libmmsw_math.so
-vendor/lib64/libmmsw_opencl.so
-vendor/lib64/libmmsw_platform.so
-vendor/lib64/libOmxAacDec.so
-vendor/lib64/libOmxAlacDec.so
-vendor/lib64/libOmxAlacDecSw.so
-vendor/lib64/libOmxAmrDec.so
-vendor/lib64/libOmxAmrwbplusDec.so
-vendor/lib64/libOmxApeDec.so
-vendor/lib64/libOmxApeDecSw.so
-vendor/lib64/libOmxEvrcDec.so
-vendor/lib64/libOmxG711Dec.so
-vendor/lib64/libOmxQcelp13Dec.so
-vendor/lib64/libOmxVpp.so
-vendor/lib64/libOmxWmaDec.so
-vendor/lib64/libvpplibrary.so
-vendor/lib64/libvpphvx.so
-vendor/lib64/libvpptestutils.so
-vendor/lib64/vendor.qti.hardware.vpp@1.1_vendor.so
+# Media - from Nokia 7 Plus Onyx_00WW-user 9 PPR1.180610.011 00WW_3_22C release-keys
+lib/libmmosal.so|54fb60b71faa40519bd5ce581f8d04c286654851
+lib/vendor.qti.hardware.vpp@1.1.so|f640ff6704d3f78451420cfb479695a733229ada
+lib64/libmmosal.so|1a16c69705f39c995f711158ed6d8c79785af127
+lib64/vendor.qti.hardware.vpp@1.1.so|bd22269eac11557c6933ee5351dfc8b98d349156
+vendor/lib/libAlacSwDec.so|702aa4606b6999334cb0a04e806fbc4defaa6d8c
+vendor/lib/libApeSwDec.so|c9a060dff8d2c5839225ae975860861d03d97e9e
+vendor/lib/libdsd2pcm.so|5c74d35900ae66f59cf1e09a6a0ffb31d8a3a66d
+vendor/lib/libFlacSwDec.so|d67b8618a0e2cab0aa5dbe0eb6b9f881b4ad457f
+-vendor/lib/libgpustats.so|703422d2fbdfa74c261be3413ae38d2775604358
+vendor/lib/libvpplibrary.so|fc33228da9d1be65f7244c787e0ce20fc8bee654
+vendor/lib/libI420colorconvert.so|1974e1209f0852a2866e6b8bdb2a970fd62cecdc
+vendor/lib/libmm-color-convertor.so|4a4f408dd749f5a1bfdc0dc8d59762e451b93cb7
+vendor/lib/libmmosal_proprietary.so|45923cc3921b70d15070e019686c86e52c38d63c
+vendor/lib/libmmsw_detail_enhancement.so|15c19f4c3eeae1128b9fb0bb165ba3b5fe86aeba
+vendor/lib/libmmsw_math.so|a9888704dff725608102ba0f13ff516308f572f2
+vendor/lib/libmmsw_opencl.so|0716c272e05e479546a1b0a81259bbb69c841105
+vendor/lib/libmmsw_platform.so|96c1777d46a35859ce6c517b5b821b2efd7839be
+vendor/lib/libOmxAacDec.so|a92cee7dde432713ae8d87db06587c0f417fd690
+vendor/lib/libOmxEvrcDec.so|5a4b6e0ded018932b92c5562341eee39ffc14d7a
+vendor/lib/libOmxQcelp13Dec.so|434a2af46001e65e9ed7eb1caaa165455d581eb1
+vendor/lib/libOmxVpp.so|42cc01f4ee6068d2d412959076af898e57b529f1
+vendor/lib/libOmxAlacDec.so|f81a4ff65837ececf15fd8058f6da98885b003e3
+vendor/lib/libOmxAlacDecSw.so|c48d83a933bf84a658877d062c3d0dfa7bed7ee6
+vendor/lib/libOmxAmrDec.so|75bcd1a01770c8daa018a0881a12a94ae84fd713
+vendor/lib/libOmxAmrwbplusDec.so|3e7c65e37a539a9eab60e502cb56a892aa0d1cb0
+vendor/lib/libOmxApeDec.so|1e745b99c9f4b50328a5ea4948c7cfcd128d33ba
+vendor/lib/libOmxApeDecSw.so|9489a58e0ef7fac4b9dd094a14eaa06da8eae05c
+vendor/lib/libOmxDsdDec.so|fc99cc935651833dd7f88e0258cd67ea2d6e083b
+vendor/lib/libOmxG711Dec.so|57fb155d7642df87ba8125446f442e25646b211c
+vendor/lib/libOmxVideoDSMode.so|bd8dee37d8c7dbc75d0f8dd3036259884947360c
+vendor/lib/libOmxWmaDec.so|292fabacae8283f257a7bc85b00b1b5c137b15a9
+vendor/lib/libvpphvx.so|7937bbf848ea2970ce61d4e5c75f31d7a27b867c
+vendor/lib/libvqzip.so|c1c4f35456ff34b4baba373f18ed034a7d1e2721
+vendor/lib/libvpptestutils.so|d72d68fe82f9d2b306032446189b4e0ad3a9bae7
+vendor/lib64/libAlacSwDec.so|01d886461932c82aef5627a6f17c3405d887d9c1
+vendor/lib64/libApeSwDec.so|f6aef64a6a48c83e22fcfb9baa51f9606a893d53
+vendor/lib64/libFlacSwDec.so|40d8b7af7eeb11eec93361f9123238048b92d182
+-vendor/lib64/libgpustats.so|79787eaed307f97ab3ce1864f6da39a096d9d153
+vendor/lib64/libI420colorconvert.so|a0a467e4ea34b67bdbd33b55eb2106dbf1a9f341
+vendor/lib64/libmm-color-convertor.so|f729793b8950403acf4de59dca75d1df5ca34d71
+vendor/lib64/libmmosal_proprietary.so|74d78fda72b736bd76ce381d06aaf33891f62697
+vendor/lib64/libmmsw_detail_enhancement.so|597572582aadc8b6b19121e5a8c49436706f1f8c
+vendor/lib64/libmmsw_math.so|ddba2e939c9f00cf6db47b6f868d54bc53db3d12
+vendor/lib64/libmmsw_opencl.so|e77331d37ddb468573fe666c2f441697fef43027
+vendor/lib64/libmmsw_platform.so|20e0fee86a711e7dcfddd869f61c95d59d586f0f
+vendor/lib64/libOmxAacDec.so|600dba09e9e499c1e905ef09b2c5819b48d2b386
+vendor/lib64/libOmxAlacDec.so|31e9bb1ee1ba666c276055e036fdba645944ce92
+vendor/lib64/libOmxAlacDecSw.so|f5674a318b592581295b816430f197fdf32b6f2c
+vendor/lib64/libOmxAmrDec.so|9aa900a995a9d644a32ae498675c26ec3e96ce69
+vendor/lib64/libOmxAmrwbplusDec.so|a8d695b37e17cf56ad1934cd5d3ad33fb4c38d85
+vendor/lib64/libOmxApeDec.so|4dae9590a57227fbf83c15fae15feb0b76cdaea4
+vendor/lib64/libOmxApeDecSw.so|3a952f4e6bf68615e9fd868a6b4c68a696aba212
+vendor/lib64/libOmxEvrcDec.so|dd2b87f34a2f3b39e316ac8b6360a9bc099f668c
+vendor/lib64/libOmxG711Dec.so|8ac0ca4600bdd59724f77415e143b7a9b4e1ad3f
+vendor/lib64/libOmxQcelp13Dec.so|496abd450ef004bfb3cc93f349ed7cafe16c256d
+vendor/lib64/libOmxVpp.so|15f23ca72b7ee9d59e310a8d5c5da7e8d5f95263
+vendor/lib64/libOmxWmaDec.so|44b163088bbd55d26f80de06a799f7c769c9685d
+vendor/lib64/libvpplibrary.so|07a72285416874698b60c6bb0352295ea6f93938
+vendor/lib64/libvpphvx.so|e4bc7b7e5b9f3e40b24a2bb498883e9bff55622c
+vendor/lib64/libvpptestutils.so|b6b417fc29f48e55d2c39f7487b51ceafff79ea9
 
-# Perf
-lib/libqti_performance.so
-lib/vendor.qti.hardware.perf@1.0.so
-lib/libqti-perfd-client_system.so
-lib64/libqti_performance.so
-lib64/vendor.qti.hardware.perf@1.0.so
-lib64/libqti-perfd-client_system.so
-lib/vendor.qti.hardware.iop@1.0.so
-lib/vendor.qti.hardware.iop@2.0.so
-lib64/vendor.qti.hardware.iop@1.0.so
-lib64/vendor.qti.hardware.iop@2.0.so
-vendor/bin/energy-awareness
-vendor/bin/msm_irqbalance
-vendor/bin/hw/vendor.qti.hardware.perf@1.0-service
-vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc
-vendor/etc/perf/perfboostsconfig.xml
-vendor/lib/libfeedbackhandler.so
-vendor/lib/libperfgluelayer.so
-vendor/lib/libqti-perfd-client.so
-vendor/lib/libqti-perfd.so
-vendor/lib/libqti-util.so
-vendor/lib/libqti-utils.so
-vendor/lib/libqti-gt-prop.so
-vendor/lib/libqti-iopd-client.so
-vendor/lib/libqti-iopd.so
-vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so
-vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so
-vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so
-vendor/lib/vendor.qti.hardware.iop@2.0_vendor.so
-vendor/lib/vendor.qti.hardware.limits@1.0_vendor.so
-vendor/lib/vendor.qti.hardware.wipower@1.0_vendor.so
-vendor/lib64/libfeedbackhandler.so
-vendor/lib64/libperfgluelayer.so
-vendor/lib64/libqti-perfd-client.so
-vendor/lib64/libqti-perfd.so
-vendor/lib64/libqti-util.so
-vendor/lib64/libqti-utils.so
-vendor/lib64/libqti-gt-prop.so
-vendor/lib64/libqti-iopd-client.so
-vendor/lib64/libqti-iopd.so
-vendor/lib64/hw/vendor.qti.hardware.iop@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so
-vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so
-vendor/lib64/vendor.qti.hardware.iop@2.0_vendor.so
-vendor/lib64/vendor.qti.hardware.limits@1.0_vendor.so
-vendor/lib64/vendor.qti.hardware.wipower@1.0_vendor.so
+# Perf - from Nokia 7 Plus Onyx_00WW-user 9 PPR1.180610.011 00WW_3_22C release-keys
+vendor/bin/energy-awareness|85400bd358530f794fa57f346942a9a7c38df545
+vendor/bin/msm_irqbalance|117d7c8a8f6f12b3615ec8ab676231df93d277f1
+vendor/bin/hw/vendor.qti.hardware.perf@1.0-service|b1632ad0a65f6acb29971c100e09fc1cea843838
+vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc|b50182aadab2e31409df61c523d0fb914a394e43
+vendor/etc/perf/commonresourceconfigs.xml|9a55f58ff268e4f51077e23adfc78a0b758a0da9
+vendor/etc/perf/perf-profile0.conf|02204355bf29ceb0460cd53e6716552bb9d9b05f
+vendor/etc/perf/perf-profile1.conf|1434c73b7342d896b313241bc4ce65ae0ab39c34
+vendor/etc/perf/perfboostsconfig.xml|1a1276ab8e003e0aa3f81f82fc49c44b795a67d2
+vendor/etc/perf/targetconfig.xml|e59653c062a27fed0785aec4af1acfa691675ea7
+vendor/etc/perf/targetresourceconfigs.xml|2084cab83603da8fb1817902836ffb890dfc8a16
+vendor/lib/libfeedbackhandler.so|d4bc91a920272e63921482b3fffcd6a5ef2c7a41
+vendor/lib/libperfgluelayer.so|29e04a0aa60f1b1731c1a1030570e015ede883e4
+vendor/lib/libqti-perfd-client.so|1d42cdbbca693a637862d25644108ac0894bab7d
+vendor/lib/libqti-perfd.so|a42443911b5a5213eb1deb10cc7f25dd4c85db55
+vendor/lib/libqti-util.so|c3da1d3749e5a3010cdfecac92c462f5da4cb6cd
+vendor/lib/vendor.qti.hardware.perf@1.0.so|e4d5d3c38defbd72676820d3f73a58396bca4371
+vendor/lib64/libfeedbackhandler.so|0777f880226f565b7f9ac359d969aee7c67d63d5
+vendor/lib64/libperfgluelayer.so|84edb959f5d4dfe9ac545705567f88464b7f06ea
+vendor/lib64/libqti-perfd-client.so|27fb8594f18ef41489b836d23a61eda4739424a7
+vendor/lib64/libqti-perfd.so|8d17323f56a0671ba459a1e9518a10ce7fa13f13
+vendor/lib64/libqti-util.so|0748431ddec60192b582c621ff4e52ccacf2569a
+vendor/lib64/vendor.qti.hardware.perf@1.0.so|de76b041137697356a03fdd28e488b34b6f890e6
 
 # Peripheral manager
 vendor/bin/pm-proxy
@@ -1374,17 +1349,14 @@ vendor/bin/pm-service
 vendor/lib/libperipheral_client.so
 vendor/lib64/libperipheral_client.so
 
-# Postprocessing
-etc/calib.cfg
-vendor/bin/mm-pp-dpps
-vendor/lib/libdisp-aba.so
-vendor/lib64/libdisp-aba.so
-vendor/lib/vendor.display.color@1.0_vendor.so
-vendor/lib/vendor.display.postproc@1.0_vendor.so
-vendor/lib/vendor.qti.hardware.qdutils_disp@1.0_vendor.so
-vendor/lib64/vendor.display.color@1.0_vendor.so
-vendor/lib64/vendor.display.postproc@1.0_vendor.so
-vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so
+# Postprocessing - from Nokia 7 Plus Onyx_00WW-user 9 PPR1.180610.011 00WW_3_22C release-keys
+vendor/bin/hw/vendor.display.color@1.0-service|4186fc9f9c69897fe4d79bbf58025144df9c6387
+vendor/bin/mm-pp-dpps|b3533e99baa104e3528dbfb60937805fafcf5472
+vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
+vendor/lib64/libdisp-aba.so|4475a8d76c22996925504c5a9dc14c40e1047b3a
+vendor/lib64/vendor.display.color@1.0.so|0316423c6bf2f4af29c005f59ccd4a6924d1e008
+vendor/lib64/vendor.display.color@1.1.so|2c31ab8c795a6684a01c2a330f5e2942d34ed622
+vendor/lib64/vendor.display.postproc@1.0.so|de9a0d12dcb4471a02b395878ec80fe9fc19b07c
 
 # QMI
 vendor/bin/irsc_util
@@ -1627,6 +1599,9 @@ vendor/lib64/libwvhidl.so|c43592cf9de090d74e37f438c071256c86f31f9c
 vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc|5a01d337c1d375ee24a6c8992ba91f54afb7637e
 vendor/bin/hw/android.hardware.drm@1.1-service.widevine|a18fb3b14337da6c2e5cf39984287961b90dd527
 
+# Wifi - from Nokia 7 Plus Onyx_00WW-user 9 PPR1.180610.011 00WW_3_22C release-keys
+vendor/bin/cnss-daemon|f4603c9502fcf58dcaa285b37ce61bcf8ea97591
+
 # Wi-Fi Display
 -app/WfdService/WfdService.apk
 bin/wfdservice
@@ -1678,7 +1653,6 @@ lib64/com.qualcomm.qti.wifidisplayhal@1.0.so
 vendor/bin/wifidisplayhalservice
 vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc
 vendor/lib/libwfdhdcpcp.so
-vendor/lib/libmmosal_proprietary.so
 vendor/lib/libwfdmodulehdcpsession.so
 vendor/lib/libwfdhaldsmanager.so
 vendor/lib/libwfdhdcpcp.so
@@ -1689,7 +1663,6 @@ vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0_vendor.so
 vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-impl.so
 vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so
 vendor/lib64/libwfdhdcpcp.so
-vendor/lib64/libmmosal_proprietary.so
 vendor/lib64/libwfdmodulehdcpsession.so
 vendor/lib64/libwfdhaldsmanager.so
 vendor/lib64/libwfdhdcpcp.so
