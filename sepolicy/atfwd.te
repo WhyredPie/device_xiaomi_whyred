@@ -1,4 +1,0 @@
-#============= atfwd ==============
-allow atfwd default_prop:property_service set;
-allow atfwd sysfs:file read;
-

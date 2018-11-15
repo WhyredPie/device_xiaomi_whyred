@@ -1,3 +1,2 @@
 #============= location ==============
-allow location sysfs:file { read open }; 
-
+allow location sysfs:file read; 

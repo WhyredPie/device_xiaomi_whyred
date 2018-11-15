@@ -1,3 +1,0 @@
-#============= vendor_per_mgr ==============
-allow vendor_per_mgr self:capability { dac_override dac_read_search };
-
