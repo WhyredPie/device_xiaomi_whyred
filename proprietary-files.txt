@@ -1308,11 +1308,7 @@ etc/permissions/qcrilhook.xml
 etc/permissions/telephonyservice.xml
 framework/embmslibrary.jar
 -framework/qcrilhook.jar
-<<<<<<< HEAD
-framework/qti-telephony-common.jar|4ebf6571b783b3e2fa9a0ca5457fd2f3b5c01162
-=======
-framework/qti-telephony-common.jar|b823d5cb152939164046b1f608d15be1fa0e6c84
->>>>>>> b5d3e15... whyred: proprietary: Update blobs from Mi A2
+framework/qti-telephony-common.jar|2EBA987AE297A892E895EC1E9A302B41DBE0232E
 framework/QtiTelephonyServicelibrary.jar
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/ATFWD-daemon
