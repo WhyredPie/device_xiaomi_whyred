@@ -228,9 +228,9 @@ VENDOR_SECURITY_PATCH := 2018-10-01
 BOARD_SECCOMP_POLICY := $(DEVICE_PATH)/seccomp
 
 # SELinux
-include device/qcom/sepolicy/sepolicy.mk
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
-
+include device/qcom/sepolicy/sepolicy.mk 
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy 
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # Treble
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
