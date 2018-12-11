@@ -22,6 +22,7 @@ $(call inherit-product-if-exits, vendor/MiuiCamera/config.mk)
 
 # Inherit from whyred device
 $(call inherit-product, device/xiaomi/whyred/device.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit from from our custom product configuration
 $(call inherit-product, vendor/lluvia/config/common_full_phone.mk)
