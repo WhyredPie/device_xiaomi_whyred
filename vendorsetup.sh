@@ -1,2 +1,1 @@
-add_lunch_combo gzosp_whyred-user
-add_lunch_combo gzosp_whyred-userdebug
+add_lunch_combo lluvia_whyred-userdebug
