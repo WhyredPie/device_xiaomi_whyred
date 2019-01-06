@@ -1,3 +1,7 @@
 allow hal_audio_default audio_prop:file { getattr open read };
 allow hal_audio_default vendor_data_file:dir { create write add_name };
+<<<<<<< HEAD
 allow hal_audio_default vendor_data_file:file { append create getattr open read };
+=======
+allow hal_audio_default vendor_data_file:file { append create read };
+>>>>>>> 59715ce9a3243dc785319956f8fcf0b5c9afc625

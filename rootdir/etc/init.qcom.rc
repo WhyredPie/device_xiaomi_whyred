@@ -336,6 +336,9 @@ on post-fs-data
     mkdir /data/vendor/location 0770 gps gps
     mkdir /data/vendor/location/mq 0770 gps gps
     mkdir /data/vendor/location/xtwifi 0770 gps gps
+    mkdir /dev/socket/location 0770 gps gps
+    mkdir /dev/socket/location/mq 0770 gps gps
+    mkdir /dev/socket/location/xtra 0770 gps gps
 
     #Create directory from IMS services
     mkdir /data/shared 0755
@@ -358,6 +361,9 @@ on post-fs-data
 
     #Create directory for hostapd
     mkdir /data/hostapd 0770 system wifi
+
+    # Create /data/vendor/time folder for time-services
+    mkdir /data/vendor/time 0700 system system
 
     mkdir /data/vendor/audio/ 0770 media audio
 
@@ -512,7 +518,7 @@ service vendor.sensors /vendor/bin/sensors.qcom
     group root
     writepid /dev/cpuset/system-background/tasks
 
-on property:ro.use_data_netmgrd=false
+on property:ro.vendor.use_data_netmgrd=false
     # netmgr not supported on specific target
     stop vendor.netmgrd
 

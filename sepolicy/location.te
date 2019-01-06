@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 #============= location =============
+=======
+#============= location ==============
+>>>>>>> 59715ce9a3243dc785319956f8fcf0b5c9afc625
 allow location sysfs:file { read open };
