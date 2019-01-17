@@ -1,6 +1,2 @@
 #============= bluetooth ==============
-<<<<<<< HEAD
-allow bluetooth vendor_file:file { execute getattr open read };
-=======
 allow bluetooth vendor_file:file { open read };
->>>>>>> 59715ce9a3243dc785319956f8fcf0b5c9afc625
