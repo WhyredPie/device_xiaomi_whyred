@@ -8,8 +8,4 @@ allow init sysfs:file { open read write };
 allow init sysfs_dm:file { open write };
 allow init tee_device:chr_file { write ioctl };
 allow init vndbinder_device:chr_file { ioctl open read write };
-<<<<<<< HEAD
-allow init vendor_file:file { execute execute_no_trans };
-=======
 allow init vendor_file:file { execute };
->>>>>>> 59715ce9a3243dc785319956f8fcf0b5c9afc625
