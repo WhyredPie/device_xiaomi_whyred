@@ -25,10 +25,10 @@ $(call inherit-product, device/xiaomi/whyred/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit from from our custom product configuration
-$(call inherit-product, vendor/lluvia/config/common_full_phone.mk)
+$(call inherit-product, vendor/gzosp/config/common_full_phone.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lluvia_whyred
+PRODUCT_NAME := gzosp_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi

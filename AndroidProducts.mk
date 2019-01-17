@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lluvia_whyred.mk
+    $(LOCAL_DIR)/gzosp_whyred.mk
